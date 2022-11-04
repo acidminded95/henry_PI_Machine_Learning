@@ -44,3 +44,5 @@ Una vez hechos los datasets de entrenamiento y las líneas d epreprocesamiento, 
 ## Resultados
 
 El mejor modelo generado (un RandomForestClassifier) durante la semana de trabajo obtuvo una puntuación de accuracy de 0.9027 y de recall de 0.7643. Considero que no fue per se un mal resultado pero que dado el peso que se le dio a la métrica del 'recall', el proceso tenía seguramente puntos en que mejorar.
+
+En un intento de última hora se logró mejorar drásticamente el resultado de recall del modelo removiendo los outliers de la columna 'precio' antes de obtener el promedio con el que se obtendria  la columna target. Recall: 0.9168 Accuracy: 0.7710
